@@ -1,0 +1,26 @@
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Work Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&family=Work+Sans&display=swap');
+
+:root{
+    --fontFamily-titulo : 'Raleway',sans-serif;
+    --fontSize-titulo : 67px;
+}
+
+*{
+    margin: 0;
+    padding: 0;   
+}
+body{
+    font-family: 'Open Sans';
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style: none;
+}

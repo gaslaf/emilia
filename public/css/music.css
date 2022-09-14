@@ -1,4 +1,50 @@
-.music header{
-    background-image: url('/images/emilia-music-top.jpg');
-    background-size: 100%;
+.music main {
+    padding: 10px;
+}
+.music main h1{
+    font-family: var(--fontFamily-titulo);
+    font-size: var(--fontSize-titulo);
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.music main ul{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.music main a {
+    color: gray;
+    text-transform: uppercase;
+}
+.music main section article a.go{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.music main section article{
+    margin-top: 30px;
+}
+
+.music main section h3{
+    font-family: var(--fontFamily-titulo);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.music main ol{
+    margin-top: 20px;   
+}
+.music main ol li{
+    list-style-type: decimal-leading-zero;
+    margin-left: 40px;
+    line-height: 30px;
+}
+.music main section article p{
+    margin-left: 15px;
+    line-height: 30px;
+}
+.music main section article iframe{
+    width: 900px;
+    height: 500px;
+    margin-bottom: 30px;
 }

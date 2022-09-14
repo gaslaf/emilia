@@ -4,3 +4,29 @@
     background-size: 75%;
     background-position: right 0;
 }
+.about main{
+    padding: 10px;
+    font-family: 'Open Sans', sans serif;
+}
+.about h1{
+    font-family: var(--fontFamily-titulo);
+    font-size : var(--fontSize-titulo);
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+.about section article{
+    margin-top: 30px;
+}
+.about h3{
+    font-family: 'Open Sans', sans serif;
+    color: seagreen;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+.about p{
+    color: rgb(42, 65, 52);
+    margin-top: 10px;
+    padding-left: 10px;
+    text-transform: capitalize;
+}
